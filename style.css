@@ -1,0 +1,665 @@
+html,body{
+    margin: 0;
+    padding: 0px;
+}
+
+.navbar-brand{
+    margin-left: 20px;
+    font-weight: bold;
+}
+
+
+
+
+.imgdp{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  margin-top: 100px;
+    width: 220px;
+    height: 220px;
+}
+
+
+
+
+
+
+
+
+.name-part{
+    
+    text-align: center;
+    
+    margin-top: 30px;
+    font-size: large;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/*icon scroll arrow*/
+
+
+.icon-scroll {
+    position: absolute;
+    top: 84%;
+    left: 50%;
+    width: 1em;
+    height: 1em;
+    transform: translateX(-50%) scale(2);
+    z-index: 1;
+}
+
+.icon-arrows::after,
+.icon-arrows::before {
+    content: '';
+}
+
+.icon-arrows span,
+.icon-arrows::after,
+.icon-arrows::before {
+    display: block;
+    width: 0.315em;
+    height: 0.315em;
+    border-right: 1px solid #d63031;
+    border-bottom: 1px solid rgba(121, 79, 79, 0.8);
+    margin: 0 0 0.125em 0.315em;
+    transform: rotate(45deg);
+    animation: mouse-scroll 1s infinite;
+    animation-direction: normal;
+}
+
+.icon-arrows::before {
+    margin-top: 0.315em;
+    animation-delay: .1s;
+}
+
+.icon-scroll span {
+    animation-delay: .2s;
+}
+
+.icon-arrows::after {
+    animation-delay: .3s;
+}
+
+.icon-scroll .mouse {
+    height: 1.375em;
+    width: .875em;
+    border: 1px solid #d63031;
+    border-radius: 2em;
+}
+
+.icon-scroll .wheel {
+    position: relative;
+    display: block;
+    height: 0.1875em;
+    width: 0.1875em;
+    margin: 0.1875em auto 0;
+    background: #d63031;
+    animation: mouse-wheel 1.2s ease infinite;
+    border-radius: 50%;
+}
+
+
+
+
+/*socialmedi icons*/
+
+
+
+ 
+  
+* {
+	margin: 0;
+	padding: 0;
+}
+
+
+.icons{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    color: teal;
+
+}
+
+.icons ul li {
+    display: inline-block;
+    width: 45px;
+    height: 45px;
+    background-color: rgb(255, 255, 255) ;
+    margin: 12px;
+    box-shadow: 1px 1px 9px #999,
+    -4px -4px 10px white;
+    text-align: center;
+    line-height: 38px;
+    font-size: 35px;
+    color: rgb(243, 220, 220);
+    cursor: pointer;
+    border-radius: 25%;
+    transition: .5s;
+}
+
+.icons ul li:nth-child(1):hover{
+    color: rgb(255, 255, 255) !important;
+    border-radius: 50%;
+    background-color: rgb(0, 0, 0);
+}
+
+
+.icons ul li:nth-child(2):hover{
+    color: rgb(255, 255, 255);
+    border-radius: 50%;
+    background-color: rgb(0, 0, 0);
+}
+
+.icons ul li:nth-child(3):hover{
+    color: rgb(255, 255, 255);
+    border-radius: 50%;
+    background-color: rgb(0, 0, 0);
+}
+
+.icons ul li:nth-child(4):hover{
+    color: rgb(255, 255, 255);
+    border-radius: 50%;
+    background-color: rgb(0, 0, 0);
+}
+
+
+/*about section*/
+
+
+
+.about{
+    background-color: rgb(236, 236, 204);
+    position: relative;
+    top: 120px;
+}
+
+
+
+
+
+.about-grids h4 {
+    font-size: 22px;
+    line-height: 30px;
+    text-transform: capitalize;
+    font-weight: 600;
+     color: #333;
+}
+.about-grids p {
+    color: #666;
+    margin: 1.5em 0;
+    line-height: 28px;
+    letter-spacing: .5px;
+    font-size: 14px;
+}
+
+
+
+
+.about-grids a {
+    padding: 11px 35px;
+    color: #fff;
+    background: #333;
+    border: 2px solid #333;
+    font-weight: 600;
+    font-size: 15px;
+    letter-spacing: 1px;
+    display: inline-block;
+    border-radius: 35px;
+}
+.about-grids a:hover {
+    color: #333;
+    background: none;
+    border: 2px solid #333;
+}
+
+
+
+
+
+h3.heading {
+    font-size: 45px;
+    text-align: center;
+    color: #333;
+    font-weight: 600;
+    letter-spacing: 5px;
+	position: relative;
+}
+
+.about-grids {
+    margin-top: 3em;
+}
+
+
+
+
+
+/*-- project --*/
+
+
+
+.project{
+    position:relative;
+    top: 100px;
+    background-color: cadetblue;
+    
+}
+
+
+.p-heading{
+    font-size: 30px;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bolder;
+
+}
+
+/*cards*/
+
+.card{
+    box-shadow: 1px 1px 7px 1px rgb(160, 160, 160);
+    transition:.3s;
+}
+
+.card:hover{
+    transform: scale(1.05);
+}
+
+.card-deck{
+    margin-top: 80px;
+}
+
+.p-more{
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    padding-top: 70px;
+}
+
+
+
+
+
+/*experience*/
+
+
+.experience{
+    background-color:grey;
+    position: relative;
+    top: 100px;
+    
+}
+.img11{
+    width: 45px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*footer*/
+
+
+footer {
+    background: url(../images/banner.jpg) bottom left no-repeat;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -ms-background-size: cover;
+    min-height: 260px;
+}
+
+.agileinfo-grids {
+    margin-top: 5em;
+}
+
+.social ul li {
+    display: inline-block;
+}
+
+.social ul li a {
+    color: #999;
+    text-align: center;
+}
+
+.social ul li a span {
+    height: 42px;
+    width: 42px;
+    font-size: 13px;
+    background: rgb(179, 49, 49);
+    line-height: 42px;
+    color: #212529;
+    border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -o-border-radius: 2px;
+    -ms-border-radius: 2px;
+    transition: 0.5s all;
+    -webkit-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    -o-transition: 0.5s all;
+    -ms-transition: 0.5s all;
+    border: none;
+}
+
+.social ul li a span:hover {
+    background: #d63031;
+    color: #fff;
+}
+
+.copyright p,
+.copyright p a {
+    color: #999;
+    font-size: 15px;
+    margin: 0;
+    letter-spacing: 1px;
+    line-height: 28px;
+}
+
+.copyright a:hover {
+    color: #fff;
+}
+
+a.move-top span {
+    color: #fff;
+    width: 34px;
+    height: 34px;
+    border: transparent;
+    line-height: 1.9em;
+    background: #d63031;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -o-border-radius: 4px;
+    -moz-border-radius: 4px;
+}
+
+
+
+
+
+
+
+
+
+/*contact section*/
+
+
+
+.contact{
+    position: relative;
+    top:100px;
+    background-color: blue;
+}
+
+
+.contact-grids {
+    margin-top: 5em;
+}
+
+.contact-grids h4 {
+    text-transform: capitalize;
+    color: #333;
+    font-size: 22px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+
+.contact-left h5 {
+    text-transform: capitalize;
+    color: #333;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.contact-left p,
+.contact-left p a {
+    margin: 0;
+    line-height: 28px;
+    letter-spacing: .5px;
+    color: #666;
+    color: #8c9398;
+}
+
+.contact-left p a:hover {
+    color: #000;
+}
+
+.map iframe {
+    width: 100%;
+    min-height: 260px;
+    border: 5px solid #eee;
+}
+
+.icon span {
+    color: #d63031;
+}
+
+.contact-right input[type="text"],
+.contact-right input[type="email"],
+.contact-right textarea {
+    outline: none;
+    width: 83%;
+    padding: .9em 1.3em;
+    font-size: 15px;
+    letter-spacing: 1px;
+    color: #888;
+    border: none;
+    border: 1px solid #ccc;
+    background: none;
+    margin-bottom: 1.5em;
+    border-radius: 5px;
+}
+
+.contact-right input[type="submit"] {
+    padding: 12px 35px;
+    color: #fff;
+    background: #d63031;
+    border: 2px solid #d63031;
+    font-weight: 600;
+    font-size: 15px;
+    letter-spacing: 1px;
+    display: inline-block;
+    border-radius: 6px;
+    float: right;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+.contact-right input[type="submit"]:hover {
+    color: #222;
+    background: none;
+    border: 2px solid #222;
+}
+
+.contact label {
+    width: 17%;
+    float: left;
+    color: #333;
+    font-weight: 600;
+}
+
+.contact label span {
+    color: #d63031;
+}
+
+.contact-right textarea {
+    min-height: 120px;
+    resize: none;
+}
+
+/*-- // contact --*/
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width:1024px) {
+    .icon-scroll{
+        position: relative;
+        top: 30px;
+    }
+}
+
+
+
+
+
+@media(max-width:768px) {
+    .icon-scroll{
+        position: relative;
+        top: 30px;
+    }
+}
+
+
+
+@media(max-width:640px) {
+    .imgdp {
+        width: auto;
+        height:auto;
+        display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  margin-top: 90px;
+    }
+
+    .name-part{
+        margin-top: 70px;
+        font-size: 45px;
+        
+    }
+    .icon-scroll{
+        position: relative;
+        top: 40px;
+    }
+}
+
+
+@media(max-width:600px) {
+    
+}
+
+
+@media(max-width:568px) {
+    .name-part{
+        margin-top: 70px;
+        font-size: 40px;
+}}
+
+@media(max-width:440px) {
+    
+}
+
+
+@media(max-width:414px) {
+    .imgdp {
+        width: auto;
+        height:auto;
+        display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  margin-top: 100px;}
+    
+
+        .name-part{
+            margin-top: 36px;
+            font-size: 32px !important;
+        }
+
+        .icon-scroll{
+            position: relative;
+            top: 50px;
+        }
+}
+
+
+
+@media(max-width:384px) {
+    .name-part{
+        margin-top: 50px;
+        font-size: 40px;
+    }
+}
+
+
+
+@media(max-width:375px) {
+    .imgdp {
+        width: auto;
+        height:auto;
+        display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  margin-top: 50px;
+    }
+    .name-part{
+        margin-top: 27px;
+        font-size: 20px;
+        
+    }
+    .icon-scroll{
+        position: relative;
+        top: 70px;
+    }
+
+
+    .icons ul li{
+        position: relative;
+        top: 20px;
+        margin: 6px;
+        width: 33px;
+        height: 33px;
+        font-size: 25px;
+        line-height: 26px;
+    }
+
+   
+}
+
+
+
+@media(max-width:320px) {
+    .name-part{
+        margin-top: 33px;
+        font-size: 25px !important;
+    }
+    .icon-scroll{
+        position: relative;
+        top: 22px;
+        
+    }
+
+    .icons ul li{
+        top: 2px;
+        margin: 6px;
+        width: 30px;
+        height: 30px;
+        font-size: 25px;
+        line-height: 25px;
+    }
+}
