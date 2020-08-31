@@ -2,6 +2,19 @@ html,body{
     margin: 0;
     padding: 0px;
 }
+.navbar{
+    margin-top: 9px;
+
+}
+.navbar-nav{
+    margin-left: 59%;
+    margin-top: 2px;
+}
+.nav-link{
+    margin-left: 20px;
+    font-weight: bold;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
 
 .navbar-brand{
     margin-left: 20px;
@@ -10,15 +23,34 @@ html,body{
 
 
 
+#particles-js{
+    
+    background-size: cover;
+    height: 680px;
+  
+}
+
+canvas.particles-js-canvas-el{
+    position: absolute;
+    top: 0px;
+    left: 0;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+}
+
+
 
 .imgdp{
     display: block;
   margin-left: auto;
   margin-right: auto;
   width: 50%;
-  margin-top: 100px;
-    width: 220px;
-    height: 220px;
+  height: 50%;
+  margin-top: 90px;
+  
+   
+   
 }
 
 
@@ -31,10 +63,10 @@ html,body{
 .name-part{
     
     text-align: center;
-    
-    margin-top: 30px;
-    font-size: large;
-    font-size: 40px;
+    color:rgb(27, 27, 27);
+    margin-top: 5px;
+  
+    font-size: 38px;
     font-weight: bold;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
@@ -44,7 +76,7 @@ html,body{
 
 .icon-scroll {
     position: absolute;
-    top: 84%;
+    top: 87%;
     left: 50%;
     width: 1em;
     height: 1em;
@@ -63,8 +95,8 @@ html,body{
     display: block;
     width: 0.315em;
     height: 0.315em;
-    border-right: 1px solid #d63031;
-    border-bottom: 1px solid rgba(121, 79, 79, 0.8);
+    border-right: 1px solid #368af1;
+    border-bottom: 1px solid rgba(109, 197, 251, 0.8);
     margin: 0 0 0.125em 0.315em;
     transform: rotate(45deg);
     animation: mouse-scroll 1s infinite;
@@ -85,19 +117,22 @@ html,body{
 }
 
 .icon-scroll .mouse {
-    height: 1.375em;
-    width: .875em;
-    border: 1px solid #d63031;
+    height: 1.1em;
+    width: .8em;
+    border: 1px solid #166ffd;
     border-radius: 2em;
+    position: relative;
+    top: 2px;
+    left: 1px;
 }
 
 .icon-scroll .wheel {
     position: relative;
     display: block;
-    height: 0.1875em;
-    width: 0.1875em;
+    height: 0.22em;
+    width: 0.22em;
     margin: 0.1875em auto 0;
-    background: #d63031;
+    background: #4793ff;
     animation: mouse-wheel 1.2s ease infinite;
     border-radius: 50%;
 }
@@ -174,8 +209,10 @@ html,body{
 
 .about{
     background-color: rgb(236, 236, 204);
+    margin: 0;
+    height: 730px;
     position: relative;
-    top: 120px;
+    top: -110px;
 }
 
 
@@ -244,7 +281,7 @@ h3.heading {
 
 .project{
     position:relative;
-    top: 100px;
+    top: -130px;
     background-color: cadetblue;
     
 }
@@ -252,7 +289,7 @@ h3.heading {
 
 .p-heading{
     font-size: 30px;
-    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-weight: bolder;
 
 }
@@ -510,127 +547,206 @@ a.move-top span {
 
 
 
+@media(max-width:1920px) {
+    .imgdp{
+        width: 450px;
+        height: 260px;
+    }
+}
 
 
 
 
 
 @media(max-width:1024px) {
-    .icon-scroll{
-        position: relative;
-        top: 30px;
+    
+    .main-content{
+        height: 54rem;
     }
+    .name-part{
+        margin-top: 12px;
+        font-size: 42px ;
+    }
+    .navbar-nav{
+        margin-left: 35%;
+        margin-top: 2px;
+    }
+.icon-scroll{
+    font-size: 16px;
+    position: relative;
+    top: 1.5rem;
+    
+}
 }
 
 
 
 
 
-@media(max-width:768px) {
-    .icon-scroll{
-        position: relative;
-        top: 30px;
+
+@media(max-width:769px) {
+    .main-content{
+        height: 1130px
     }
-}
-
-
-
-@media(max-width:640px) {
     .imgdp {
-        width: auto;
+        width: 550px;
+        height:310px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 190px;}
+    
+
+        .name-part{
+            margin-top: 12px;
+            font-size: 42px ;
+        }
+    
+    .icon-scroll{
+        font-size: 19px;
+        position: relative;
+        top: 8.5rem;
+        
+    }
+}
+
+
+
+@media(max-width:540px) {
+    .imgdp {
+        width: 410px;
         height:auto;
         display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 50%;
-  margin-top: 90px;
+  
+  margin-top: 100px;
     }
 
     .name-part{
-        margin-top: 70px;
-        font-size: 45px;
+        margin-top: 10px;
+        font-size: 37px;
         
     }
     .icon-scroll{
         position: relative;
-        top: 40px;
+        top: 28px;
+        font-size: 19px;
     }
 }
 
+@media(max-width:415px) {
+    .main-content{
+        height: 52rem;;
+    }
 
-@media(max-width:600px) {
-    
-}
-
-
-@media(max-width:568px) {
-    .name-part{
-        margin-top: 70px;
-        font-size: 40px;
-}}
-
-@media(max-width:440px) {
-    
-}
-
-
-@media(max-width:414px) {
     .imgdp {
-        width: auto;
-        height:auto;
+        width: 390px;
+        height:225px;
         display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
-  margin-top: 100px;}
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 120px;}
     
 
         .name-part{
-            margin-top: 36px;
-            font-size: 32px !important;
+            margin-top: 10px;
+            font-size: 30px ;
         }
 
         .icon-scroll{
             position: relative;
-            top: 50px;
+            top: 70px;
+            font-size: 16px;
+
+        }
+
+        .icons ul li{
+        
+            margin: 6px;
+            width: 34px;
+            height: 34px;
+            font-size: 29px;
+            line-height: 26px;
         }
 }
 
 
 
-@media(max-width:384px) {
-    .name-part{
-        margin-top: 50px;
-        font-size: 40px;
+
+
+
+
+
+
+
+@media(max-width:376px) {
+    .main-content{
+        height: 48rem;;
     }
+
+    .imgdp {
+        width: 370px;
+        height:210px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 100px;}
+    
+
+        .name-part{
+            margin-top: 10px;
+            font-size: 28px ;
+        }
+
+        .icon-scroll{
+            position: relative;
+            top: 45px;
+            font-size: 16px;
+
+        }
+
+        .icons ul li{
+        
+            margin: 6px;
+            width: 33px;
+            height: 33px;
+            font-size: 27px;
+            line-height: 26px;
+        }
 }
 
 
 
-@media(max-width:375px) {
+
+
+
+@media(max-width:360px) {
+    .main-content{
+        height: 47rem;;
+    }
+
     .imgdp {
-        width: auto;
-        height:auto;
-        display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
-  margin-top: 50px;
+      width: 350px ;
+      height: 200px;
+      margin-top: 90px;
+      
     }
     .name-part{
-        margin-top: 27px;
-        font-size: 20px;
+        margin-top: 10px;
+        font-size: 26px !important;
         
     }
     .icon-scroll{
         position: relative;
-        top: 70px;
+        top: 38px;
+        font-size: 16px;
+        
     }
 
 
     .icons ul li{
-        position: relative;
-        top: 20px;
+        
         margin: 6px;
         width: 33px;
         height: 33px;
@@ -644,15 +760,39 @@ a.move-top span {
 
 
 @media(max-width:320px) {
-    .name-part{
-        margin-top: 33px;
-        font-size: 25px !important;
+    .main-content{
+        height: 42rem;;
     }
+
+    .imgdp {
+        width: 320px ;
+        height: 185px;
+        margin-top: 70px;
+        
+      }
+    .name-part{
+        margin-top: 10px;
+        font-size: 23px !important;
+    }
+
+
+
+
+
     .icon-scroll{
+        
         position: relative;
-        top: 22px;
+        top: 20px;
+        font-size:13.5px ;
         
     }
+    
+
+
+
+
+
+
 
     .icons ul li{
         top: 2px;
