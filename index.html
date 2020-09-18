@@ -6,99 +6,72 @@
     <title>Sayooj_Koroth</title>
     <link href="" rel="icon">
     
-    
-    
+    <!-- poppins font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700&display=swap" rel="stylesheet">
+
+    <!-- fontawesome icons -->
     <link rel="stylesheet" type="text/css" href="fontawesome/css/all.min.css" >
     <link rel="stylesheet" href="fontawesome/css/fontawesome.css">
    
-   
-   
-   
+    <!-- style.css file and Bootstrap file linked -->
     <link href="style.css" type="text/css" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <link href="css/bootstrap.css" rel="stylesheet">
 </head>
 
-
 <body>
     <div class="main-content" id="home">
-        <div class="layer">
-            <!-- header -->
-            <header class="header">
-            
-                    <!-- nav -->
-                     
-                    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                        <a class="navbar-brand" href="#">Navbar</a>
-                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                          <span class="navbar-toggler-icon"></span>
-                        </button>
-                        <div class="collapse navbar-collapse" id="navbarNav">
-                          <ul class="navbar-nav">
-                            <li class="nav-item active">
-                              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-                            </li>
-                            <li class="nav-item">
-                              <a class="nav-link" href="#">Features</a>
-                            </li>
-                            <li class="nav-item">
-                              <a class="nav-link" href="#">Pricing</a>
-                            </li>
-                            <li class="nav-item">
-                              <a class="nav-link disabled" href="#">Disabled</a>
-                            </li>
-                          </ul>
-                        </div>
-                      </nav>
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-            </header>
-            <!-- //header -->
-
-            <!-- banner -->
-            <div class="content-section">
-                <img class="imgdp" src="https://www.digitalthirdcoast.com/wp-content/uploads/2019/12/Taylor-Cimala-round-profile-picture.png">
-                <p class="name-part">Hi! I'm Sayooj Koroth.</p>
-
-
-                    
-                    
-                      
-                <div class="icons">
-                    <ul>
-                        <li><a href="https://icons8.com/icons/set/twitter"><i class="fab fa-xs fa-linkedin"></i></a></li>
-                        <li><a href="https://drive.google.com/file/d/1MolfACcB-PMEoSs8gfvHjjQ1eaNy4s9E/view"><i class="fab fa-xs fa-behance"></i></a></li>
-                         <li><a href="https://icons8.com/icons/set/twitter"><i style="color: aqua;" class="fab fa-xs fa-github"></i></a></li>
-                        <li><a href="https://getbootstrap.com/docs/4.0/components/navbar/"><i class="fab fa-xs fa-twitter"></i></a></li>
+        <!-- header -->
+        <header class="header">
+            <!-- navigation-bar-->
+            <nav class="navbar navbar-expand-lg navbar-light ">
+                <a class="navbar-brand" href="#">Sayooj_Koroth</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#Home">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#projects">Projects</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " href="#experience">Experience</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#blog">Blog</a>
+                        </li>
                     </ul>
                 </div>
+            </nav>
+        </header>
 
-                    
-
-
-
-                
-
-
-
+        <!-- contents --> 
+        <div class="content-section" >
+            <!-- particle background -->
+            <div id="particles-js">
+                <!-- profile picture -->
+                <img class="imgdp" src="media/finalpoto.png">
+                <p class="name-part">Hi! I'm Sayooj Koroth.</p>
+                <!-- social-media icons -->
+                <div class="icons">
+                    <ul>
+                        <li><a href="https://www.linkedin.com/in/sayoojkoroth" class="ic1"><i class="fab fa-xs fa-linkedin"></i></a></li>
+                        <li><a href="https://www.behance.net/sayoojkoroth" class="ic2"><i class="fab fa-xs fa-behance"></i></a></li>
+                        <li><a href="https://github.com/Sayoojkoroth" class="ic3"><i class="fab fa-xs fa-github"></i></a></li>
+                        <li><a href="https://twitter.com/sayooj_koroth" class="ic4"><i class="fab fa-xs fa-twitter"></i></a></li>
+                    </ul>
+                </div>
+                <!-- scroll-down icon-->
                 <a href="#about" class="scroll">
                     <div class="icon-scroll">
-                        <div class="mouse">
-                            <div class="wheel"></div>
+                        <div class="cover">
+                            <div class="dot"></div>
                         </div>
                         <div class="icon-arrows">
                             <span></span>
@@ -106,210 +79,170 @@
                     </div>
                 </a>
             </div>
-            <!-- //banner -->
         </div>
     </div>
 
-
-
     <!---about me section-->
 
-    <section class="about py-5" id="about">
+    <section class="about_cover" id="about">
+    <section class="about py-5">
         <div class="container py-3">
             <h3 class="heading">About Me</h3>
-            <div class="row about-grids">
-                <div class="col-lg-4">
-                    <h4>Nulla viverra pharetra sem, eget pulvinar neque pharetra ac int.</h4>
-                    <p>Nulla viverra pharetra sem, eget pulvinar neque pharetra ac int. lorem ipsum Vestibulum. placerat placerat dolor. Vestibulum at dui nunc. Nullam eu elit neque lectus. Aliquam erat volutpat. Nullam ac mattis mi. Donec tincidunt leoelit dictum viverra luctus.</p>
-                    <a href="#"> Download CV <span class="fa ml-2 fa-download"></span> </a>	
+            <div class="row content">
+                <div class="col-lg-7">
+                    <h4>Hello! My name is Sayooj Koroth.</h4>
+                    <p>Born on 3 April 2000<br>
+                        Hometown : Kozhikode, Kerala INDIA<br>
+                        Tech-enthusiastic guy who likes to learn, share and contribute.<br>
+                        B-Tech Computer Science student at CE Chengannur.(2017-21)<br>
+                        To know more about me, checkout my resume below.
+                    </p>
+                    <a href="#"> My Resume <span class="fa ml-2 fa-download"></span> </a>	
                 </div>
-                <div class="col-lg-4 col-md-6 my-lg-0 my-5">
-                    <img src="images/img.jpg" alt="" class="img-fluid" />
-                </div>
-            
-            </div>
-        </div>
-    </section>
-
-
-
-
-
-        <!--projects  -->
-        <section class="project py-md-5 py-3" id="projects">
-            
-                
-                <p class="p-heading text-uppercase mb-lg-5 mb-3 text-center">My Projects</p>
-            
-                <div class="container">
-                    
-                        <div class="card-deck">
-                            <div class="card" style="width: 18rem;">
-                                <img class="card-img-top" src="https://i.all3dp.com/cdn-cgi/image/fit=cover,w=1284,h=722,gravity=0.5x0.5,format=auto/wp-content/uploads/2019/01/28122332/a-3d-printed-car-engine-model-adam-savages-tested-youtube-channel-190119.png" alt="Card image cap">
-                                <div class="card-body">
-                                  <h5 class="card-title">Card title</h5>
-                                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                  <a href="#" class="btn btn-primary">Go somewhere</a>
-                                </div>
-                              </div>
-                              <div class="card" style="width: 18rem;">
-                                <img class="card-img-top" src="https://i.all3dp.com/cdn-cgi/image/fit=cover,w=1284,h=722,gravity=0.5x0.5,format=auto/wp-content/uploads/2019/01/28122332/a-3d-printed-car-engine-model-adam-savages-tested-youtube-channel-190119.png" alt="Card image cap">
-                                <div class="card-body">
-                                  <h5 class="card-title">Card title</h5>
-                                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                  <a href="#" class="btn btn-primary">Go somewhere</a>
-                                </div>
-                              </div>
-                              <div class="card" style="width: 18rem;">
-                                <img class="card-img-top" src="https://i.all3dp.com/cdn-cgi/image/fit=cover,w=1284,h=722,gravity=0.5x0.5,format=auto/wp-content/uploads/2019/01/28122332/a-3d-printed-car-engine-model-adam-savages-tested-youtube-channel-190119.png" alt="Card image cap">
-                                <div class="card-body">
-                                  <h5 class="card-title">Card title</h5>
-                                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                  <a href="#" class="btn btn-primary">Go somewhere</a>
-                                </div>
-                              </div>
-                              <div class="card" style="width: 18rem;">
-                                <img class="card-img-top" src="https://i.all3dp.com/cdn-cgi/image/fit=cover,w=1284,h=722,gravity=0.5x0.5,format=auto/wp-content/uploads/2019/01/28122332/a-3d-printed-car-engine-model-adam-savages-tested-youtube-channel-190119.png" alt="Card image cap">
-                                <div class="card-body">
-                                  <h5 class="card-title">Card title</h5>
-                                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                  <a href="#" class="btn btn-primary">Go somewhere</a>
-                                </div>
-                              </div>
-                            
-                          </div>
-                    
-                </div>
-                <div>
-                  <p class="p-more" ><a href="">More projects</a></p>
-                </div>
-        </section>
-
-
-
-       
-
-
-        <!-- experience -->
-<section class="experience py-5" id="experience">
-	<div class="container py-3">
-		<h3 class="heading">Experience</h3>
-		<div class="row service-grids">
-			<div class="col-lg-4 col-md-6 agile w3-icon-grid1">
-				<h3><img class="img11" src="1_a1Sy9bAOy6vZzILhvhSYjA.png"> UI/UX Design</h3>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisci ngelit. In euismod faucibus quam. placerat placerat dolor. Vestibulum</p>
-			</div>
-			<div class="col-lg-4 col-md-6 agile mt-md-0 mt-sm-5 mt-4 w3-icon-grid1">
-				<h3><i class="fa mr-2 fa-mobile" aria-hidden="true"></i>Mobile Apps</h3>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisci ngelit. In euismod faucibus quam. placerat placerat dolor. Vestibulum</p>
-			</div>
-			<div class="col-lg-4 col-md-6 agile mt-lg-0 mt-sm-5 mt-4 w3-icon-grid1">
-				<h3><i class="fa mr-2 fa-laptop" aria-hidden="true"></i>Web Developer</h3>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisci ngelit. In euismod faucibus quam. placerat placerat dolor. Vestibulum</p>
-			</div>
-			<div class="col-lg-4 col-md-6 agile mt-sm-5 mt-4 w3-icon-grid1">
-				<h3><i class="fas mr-2 fa-camera" aria-hidden="true"></i> Photoshop</h3>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisci ngelit. In euismod faucibus quam. placerat placerat dolor. Vestibulum</p>
-			</div>
-			<div class="col-lg-4 col-md-6 agile mt-sm-5 mt-4 w3-icon-grid1">
-				<h3><i class="fab mr-2 fa-accusoft" aria-hidden="true"></i>Software</h3>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisci ngelit. In euismod faucibus quam. placerat placerat dolor. Vestibulum</p>
-			</div>
-			<div class="col-lg-4 col-md-6 agile mt-sm-5 mt-4 w3-icon-grid1">
-				<h3><i class="fas mr-2 fa-chart-pie" aria-hidden="true"></i>Graphic Design</h3>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisci ngelit. In euismod faucibus quam. placerat placerat dolor. Vestibulum</p>
-			</div>
-		</div>
-	</div>
-</section>
-<!-- //experiences -->
-
-
-
-
-
-
-
-
-
-<!--conrtact-->
-
-    <section class="contact py-5" id="contact">
-        <div class="container py-lg-5 py-3">
-            <h3 class="title"><span>Get In</span> Touch With Us.</h3>
-            <div class="row contact-grids mt-lg-5 mt-4">
-                <div class="col-lg-5 contact-left">
-                    <h4 class="mb-4">Address Info</h4>
-                    <div class="row">
-                        <div class="col-1 pr-0 icon">
-                            <span class="fa fa-map-marker" aria-hidden="true"></span>
-                        </div>
-                        <div class="col-11">
-                            <p>24H Main Block, 4th cross, California,</p>
-                            <p> California - 94203</p>
-                        </div>
-                        <div class="col-1 pr-0 icon my-2">
-                            <span class="fa fa-phone" aria-hidden="true"></span>
-                        </div>
-                        <div class="col-11 my-2">
-                            <p> +112 367 896 2449</p>
-                        </div>
-                        <div class="col-1 pr-0 icon">
-                            <span class="fa fa-envelope-open" aria-hidden="true"></span>
-                        </div>
-                        <div class="col-11">
-                            <p><a href="mailto:example@email.com"> mail@example.com</a></p>
-                        </div>
-                        <div class="map col-sm-11 mt-4">
-                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d387142.84010033106!2d-74.25819252532891!3d40.70583163828471!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNew+York%2C+NY%2C+USA!5e0!3m2!1sen!2sin!4v1475140387172"></iframe>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-7 mt-lg-0 mt-5 contact-right">
-                    <h4 class="mb-4">Get In Touch</h4>
-                    <form action="#" method="post">
-                        <label><span class="fa mr-2 fa-user" aria-hidden="true"></span> Name</label>
-                        <input type="text" name="Name" value="Name" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Name';}" required="">
-                        <div class="clearfix"></div>
-                        <label><span class="fa mr-2 fa-envelope-open" aria-hidden="true"></span>Email</label>
-                        <input type="email" name="Email" value="Email" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Email';}" required="">
-                        <div class="clearfix"></div>
-                        <label><span class="fa mr-2 fa-phone" aria-hidden="true"></span>Phone</label>
-                        <input type="text" name="Phone" value="Phone" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Phone';}" required="">
-                        <div class="clearfix"></div>
-                        <label><span class="fa mr-2 fa-edit" aria-hidden="true"></span>Message</label>
-                        <textarea name="Message" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Message...';}" required="">Message...</textarea>
-                        <input type="submit" value="Submit">
-                    </form>
+                <div class="col-lg-5">
+                    <img class="abimg " src="media/aboutimg.png" alt="image of a boy">
                 </div>
             </div>
         </div>
     </section>
-    <!-- //contact -->
-    <!-- footer -->
-    <footer class="py-5 text-center">
+    </section>
+
+     <!--project section -->
+
+    <section class="project py-md-5 py-3" id="projects">
+        <!-- gif -->   
+        <img class="gif" src="media/pj.gif">
+        <!-- dots background -->        
+        <img class=" col-12 dots" src="media/dots.png">
+        <!-- headings-->       
+        <p class="p-heading mb-lg-5 mb-2">Projects</p>
+        <p class="p-subheading">Checkout my little works...</p>
+        <!-- content cards -->
         <div class="container">
-            <div class="social mb-4">
-                        <ul>
-                            <li><a href="#"><span class="fa mr-2 fa-facebook"></span></a></li>
-                            <li><a href="#"><span class="fa mr-2 fa-twitter"></span></a></li>
-                            <li><a href="#"><span class="fa mr-2 fa-google-plus"></span></a></li>
-                            <li><a href="#"><span class="fa mr-2 fa-pinterest"></span></a></li>
-                            <li><a href="#"><span class="fa mr-2 fa-vk"></span></a></li>
-                        </ul>
+            <div class="row card_main">
+                <div class="col-md-4 col-sm-6">
+                    <div class="card">
+                        <img class="card-img-top" src="https://i.all3dp.com/cdn-cgi/image/fit=cover,w=1284,h=722,gravity=0.5x0.5,format=auto/wp-content/uploads/2019/01/28122332/a-3d-printed-car-engine-model-adam-savages-tested-youtube-channel-190119.png" class="img-fluid" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <a href="#" class="btn btn-primary">Read more</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6">
+                    <div class="card">
+                        <img class="card-img-top" src="media/web_img.jpg" class="img-fluid" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">Personal Website</h5>
+                            <p class="card-text">Built a personal website using Html, CSS, Bootstrap and little bit of JavaScript. Hosted it using GitHub pages.</p>
+                            <a href="#" class="btn btn-primary">Read more</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6">
+                    <div class="card">
+                        <img class="card-img-top" src="https://i.all3dp.com/cdn-cgi/image/fit=cover,w=1284,h=722,gravity=0.5x0.5,format=auto/wp-content/uploads/2019/01/28122332/a-3d-printed-car-engine-model-adam-savages-tested-youtube-channel-190119.png" class="img-fluid" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <a href="#" class="btn btn-primary">Read more</a>
+                        </div>
                     </div>
                 </div>
             </div>
-            <div class="copyright text-center mb-4">
-                <p>© 2018 Precise . All Rights Reserved | Design by <a href="http://w3layouts.com/"> W3layouts</a> </p>
+        </div>
+        <!-- more-projects link -->
+        <div>
+            <p class="p-more" ><a href="">More projects</a></p>
+        </div>
+    </section>
+
+    <!-- experience section -->
+
+    <section class="experience_cover" id="experience">
+    <section class="experience py-5" >
+	    <div class="container py-3">
+            <!-- heading -->
+		    <h3 class="exp_heading text-center">Experience</h3>
+            <!-- content -->
+            <div class="row exp_content">
+			    <div class="col-lg-3 col-md-6">
+                    <img class="img11" src="media/dsc.png">
+				    <h3 class="txt">Google DSC Lead</h3>
+                    <p>Google Developer Students Club<br>CE Chengannur campus<br>(2020 - Ongoing)</p>
+                    <button class="btne"><a class="linktext" href = "https://developers.google.com/community/dsc">see more</a></button>
+			    </div>
+			    <div class="col-lg-3 col-md-6  mt-md-0 mt-sm-5 mt-4">
+                    <img class="img12" src="media/foces.png">
+				    <h3 class="txt">FOCES-Chairperson</h3>
+                    <p>Forum of Computer Engineering <br>students, CE Chengannur.<br>(2018 - Ongoing)</p>
+                    <button class="btne"><a class="linktext" href = "https://rb.gy/j3g5vj">see more</a></button>
+			    </div>
+			    <div class="col-lg-3 col-md-6  mt-lg-0 mt-sm-5 mt-4">
+                    <img class="img13" src="media/iedc.png">
+				    <h3 class="txt" >IEDC-Chief Marketing Officer</h3>
+                    <p>Innovation and Entrepreurship Development Cell, CE Chengannur.<br>(2019 - 2020)</p>
+                    <button class="btne"><a class="linktext" href = "https://rb.gy/a1f8l7">see more</a></button>
+			    </div>
+			    <div class="col-lg-3 col-md-6 mt-lg-0 mt-sm-5 mt-4 ">
+                    <img class="img14" src="media/keltron.png">
+				    <h3 class="txt">KELTRON - Internship</h3>
+                    <p>5 Days internship covering Frontend development,<br>Database and java basics.(2018)</p>
+                    <button class="btne"><a class="linktext" href = "http://www.keltron.org/">see more</a></button>
+			    </div>
+		    </div>
+	    </div>
+    </section>
+    </section>
+
+    <!-- blog section-->
+
+    <section class="blogs_cover" id="blog">
+    <section class="blogs" >
+        <div class="container">
+            <!-- headings -->
+            <h3 class=" blog_heading text-center">Blogs</h3>
+            <p class="blog_subheading text-center">Little stories that i wrote...</p>
+            <!-- content -->
+            <div class="row blog_content text-center">
+                <div class=" col-md-12">
+                    <a  href="https://medium.com/@sayoojkoroths79/my-journey-to-being-selected-as-a-google-dsc-lead-2020-46be49c9649"><button class="stories">My Journey to being a DSC Lead(2020)</button></a>
+                    <a  href="https://medium.com/@sayoojkoroths79/points-to-keep-in-mind-while-building-your-first-3d-printer-e4fe80fe3c2f"><button class="stories">Beginner tips in Building a 3D Printer</button></a>
+                    <a  href="https://medium.com/@sayoojkoroths79/difference-between-a-radio-button-and-a-checkbox-in-html-6bc043034068"><button class="stories">Difference : Radio button and Checkbox </button></a>
+                </div>
             </div>
-            <a href="#home" class="move-top scroll"><span class="fa fa-angle-double-up" aria-hidden="true"></span></a>
+            <!-- more-stories link -->
+            <div class="blog_more text-center">
+            <a href="https://medium.com/@sayoojkoroths79" class="more_story">more stories</a>
+            </div>
+        </div>
+    </section>
+    
+
+    <!-- footer -->
+    
+    <footer class=" footer py-5 text-center">
+        <div class="container">
+            <div class="lastlines mb-4">
+                <p class="line1">For any queries, contact me anytime on <a target ="new" href="https://mail.google.com/mail/?view=cm&fs=1&to=sayooj.koroth34@outlook.com">sayooj.koroth34@outlook.com</a></p>
+                <p class="line2">Made with <i class="fas fa-heart"></i> by Sayooj Koroth</p>
+            </div>
+            <a href="#home" class="move-up"><span class="fa fa-angle-double-up"></span></a>
         </div>
     </footer>
-    <!-- //footer -->
     
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<!-- js files -->
+
+<!--particles-->
+<script type="text/javascript" src="js/particles.min.js"></script>
+<script  type="text/javascript" src="js/app.js"></script>
+<!---end particles-->
+
+<!--Bootstrap files-->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+
 </body>
 </html>
