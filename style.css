@@ -1295,13 +1295,13 @@ h3.heading {
             height: 220px;
             position: relative;
             bottom: 59rem;
-            left: -1.9rem;
+            left: -2.8rem;
             padding-left: 4.5rem;
         }
     
         .gif{
             width: 17rem;
-            margin-left: 2.7rem;
+            margin-left: 2.3rem;
             padding-top: 7.5rem;
             padding-bottom: 1.6rem;
         }
@@ -1333,7 +1333,7 @@ h3.heading {
     
         .card{
             width: 20rem;
-            margin-left: 0.55rem;
+            margin-left: -0.1rem;
         }
         
         .card-text{
