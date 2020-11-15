@@ -1109,7 +1109,7 @@ h3.heading {
         width: 400px;
         height: 220px;
         bottom: 60.5rem;
-        left: 0.6rem;
+        left: -1rem;
         padding-left: 4.5rem;
     }
 
@@ -1119,7 +1119,7 @@ h3.heading {
 
     .gif{
         width: 17rem;
-        margin-left: 5.5rem;
+        margin-left: 4.5rem;
         padding-top: 9rem;
         padding-bottom: 2rem;
     }
@@ -1145,7 +1145,7 @@ h3.heading {
 
     .card{
         width: 22rem;
-        margin-left: 2.5rem;
+        margin-left: 1.15rem;
     }
 
     .card-text{
